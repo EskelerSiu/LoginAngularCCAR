@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%;  
+background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTZheW52dHNiZTF1NGxkbzJtY2V2cjhuZTdvd3JvN3hxanh1ZHI2MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OANp03XvXEV9u/giphy-downsized-large.gif');
+background-size: cover;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

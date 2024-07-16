@@ -1,0 +1,36 @@
+.login-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+  position: relative;
+}
+.user-icon {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-icon i {
+  color: #fff;
+  font-size: 50px;
+}
+.card-body {
+  padding: 2rem;
+}
+.card-title {
+  margin-bottom: 1.5rem;
+}
+h3 {
+  color: #000000;
+  font-family: 'Courier New';
+}
+

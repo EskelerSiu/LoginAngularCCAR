@@ -1,0 +1,15 @@
+<div class="password-form">
+  <mat-form-field class="password-full-width">
+    <mat-label>Contraseña</mat-label>
+    <mat-icon matPrefix>lock</mat-icon>
+    <input matInput [type]="hide ? 'password' : 'text'" [formControl]="passwordFormControl" maxlength="8">
+    <button mat-icon-button matSuffix (click)="togglePasswordVisibility()" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+      <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
+    <mat-error ngIf="passwordFormControl.hasError('required')">
+      La contraseña <strong> requiere una minuscula, una mayuscula, un numero y un caracter especial</strong>
+    </mat-error>
+    <mat-error ngIf="passwordFormControl.hasError('minlength') || passwordFormControl.hasError('maxlength')">
+    </mat-error>
+  </mat-form-field>
+</div>
